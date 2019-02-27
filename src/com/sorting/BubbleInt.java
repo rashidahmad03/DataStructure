@@ -10,6 +10,9 @@ import com.utilitydata.Dataset;
 
 public class BubbleInt {
     public static void main(String[] args) {
+        String version = System.getProperty("java.version");
+        System.out.println(version);
+
         int a[]=new Dataset().int_array();
 
         bubbleSort(a,a.length);
